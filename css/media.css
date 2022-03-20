@@ -1,0 +1,130 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header style start*/
+header{
+    padding: 15px 0px;
+}
+.menu ul li a{
+    padding: 8px 0px 0px !important;
+    text-align: right;
+}
+/*header style end*/
+
+/*slider style start*/
+.slider{
+    padding-bottom: 60px;
+}
+.carousel-indone{
+    bottom: -60px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height:13px; 
+}
+.s-text{
+    margin-top: 0px;
+}
+.s-text h1{
+    font-size: 26px;
+}
+.s-text h2{
+    font-size: 18px;
+    margin: 15px 0px 13px;  
+}
+.s-text p{
+    margin-bottom: 17px;
+}
+.s-icon ul li{
+    margin-right: 18px !important;
+}
+.s-icon ul li i{
+    font-size: 35px;
+}
+/*slider style end*/
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*header style start*/
+.menu ul li a{
+    padding: 8px 0px 0px !important;
+    text-align: right;
+}
+/*header style end*/
+
+/*slider style start*/
+.slider{
+    padding-bottom: 70px;
+}
+.carousel-indone{
+    bottom: -54px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height:13px; 
+}
+.s-text{
+    margin-top: 0px;
+}
+.s-text h1{
+    font-size: 30px;
+    margin: 0px;
+    color: #010101;
+}
+.s-text h2{
+    font-size: 19px;
+    margin: 20px 0px 15px;
+    color: #313841;
+    
+}
+.s-text p{
+    margin-bottom: 18px;
+}
+.s-icon ul li{
+    margin-right: 20px !important;
+}
+.s-icon ul li i{
+    font-size: 37px;
+}
+/*slider style end*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header style start*/
+header{
+    padding: 25px 0px 30px;
+}
+.menu ul li a{
+    padding: 10px 0px 0px !important;
+    text-align: right;
+}
+/*header style end*/
+
+/*slider style start*/
+/*slider style start*/
+.slider{
+    padding-bottom: 100px;
+}
+.carousel-indone{
+    bottom: -80px;
+}
+.s-text{
+    margin-top: 74px;
+}
+.s-text p{
+    margin-bottom: 24px;
+}
+.s-icon ul li{
+    margin-right: 25px !important;
+}
+.s-icon ul li i{
+    font-size: 40px;
+}
+/*slider style end*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){}

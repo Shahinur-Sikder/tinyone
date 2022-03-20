@@ -1,0 +1,79 @@
+/*common style start*/
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #010101;
+}
+/*common style end*
+/*header style start*/
+header{
+    background-color:  #fcdb00;
+    padding: 25px 0px 50px;
+}
+.menu ul li a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #010101 !important;
+    padding: 0px 41px !important;
+    transition: .3s;
+}
+.menu ul li:last-child a{
+    padding-right: 0px !important;
+}
+.menu ul li a:hover{
+    color: #fff !important;
+}
+/*header style end*/
+/*slider style start*/
+.slider{
+    background-color:#fcdb00;
+    padding-bottom: 120px;
+}
+.carousel-indone{
+    bottom: -80px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+   
+}
+.s-text{
+    margin-top: 80px;
+}
+.s-text h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0px;
+    color: #010101;
+}
+.s-text h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 25px 0px 20px;
+    color: #313841;
+    
+}
+.s-text p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.s-icon ul li{
+    margin-right: 30px !important;
+}
+.s-icon ul li i{
+    font-size: 42px;
+    color: #010101;
+    transition: .3s;
+}
+.s-icon ul li i:hover{
+    transform: scale(.8)
+}
+/*slider style end*/
